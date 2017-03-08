@@ -8,7 +8,7 @@ import java.util.Arrays;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.nestorrente.jitl.template.jtwig.JtwigTemplateProcessor;
+import com.nestorrente.jitl.template.jtwig.JtwigTemplateEngine;
 
 public class HtmlViewLoaderTest {
 
@@ -18,7 +18,7 @@ public class HtmlViewLoaderTest {
 	public static void createRepository() throws ClassNotFoundException, SQLException {
 
 		Jitl jitl = new JitlBuilder()
-			.setTemplateProcessor(new JtwigTemplateProcessor())
+			.setTemplateProcessor(new JtwigTemplateEngine())
 			.addFileExtension("html")
 			.build();
 

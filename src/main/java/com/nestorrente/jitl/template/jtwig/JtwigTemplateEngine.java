@@ -7,17 +7,17 @@ import org.jtwig.JtwigTemplate;
 import org.jtwig.environment.DefaultEnvironmentConfiguration;
 import org.jtwig.environment.EnvironmentConfiguration;
 
-import com.nestorrente.jitl.template.TemplateProcessor;
+import com.nestorrente.jitl.template.TemplateEngine;
 
-public class JtwigTemplateProcessor implements TemplateProcessor {
+public class JtwigTemplateEngine implements TemplateEngine {
 
 	private final EnvironmentConfiguration config;
 
-	public JtwigTemplateProcessor() {
+	public JtwigTemplateEngine() {
 		this(new DefaultEnvironmentConfiguration());
 	}
 
-	public JtwigTemplateProcessor(EnvironmentConfiguration config) {
+	public JtwigTemplateEngine(EnvironmentConfiguration config) {
 		this.config = config;
 	}
 
