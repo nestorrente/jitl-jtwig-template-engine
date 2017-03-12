@@ -91,7 +91,7 @@ The result of the rendering process of this example would be something like:
     </body>
 </html>
 ```
-**Learn more about JITL in [jitl-core GitHub page](https://github.com/nestorrente/jitl-core).**
+Learn more about JITL in **[jitl-core GitHub page](https://github.com/nestorrente/jitl-core).**
 
 ## Maven
 
