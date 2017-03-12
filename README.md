@@ -1,2 +1,1 @@
-# jitl-jtwig
-Java Interface Template Library - Jtwig template engine plugin
+# Java Interface Template Library - Jtwig template engine plugin
