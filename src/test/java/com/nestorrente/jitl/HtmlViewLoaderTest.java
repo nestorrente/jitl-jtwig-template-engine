@@ -17,7 +17,7 @@ public class HtmlViewLoaderTest {
 	@BeforeClass
 	public static void createRepository() throws ClassNotFoundException, SQLException {
 
-		Jitl jitl = new JitlBuilder()
+		Jitl jitl = Jitl.builder()
 			.setTemplateEngine(new JtwigTemplateEngine())
 			.addFileExtension("html")
 			.build();
