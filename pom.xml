@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.nestorrente</groupId>
 	<artifactId>jitl-jtwig-template-engine</artifactId>
-	<version>2.0.0</version>
+	<version>3.0.0</version>
 	<name>Jtwig 4 Jitl</name>
 	<description>A Jtwig-based implementation of Jitl's Template Engine.</description>
 
@@ -19,7 +19,7 @@
 
 	<properties>
 		<jtwig.version>5.75</jtwig.version>
-		<jitl.version>2.0.0</jitl.version>
+		<jitl.version>3.0.0</jitl.version>
 		<junit.version>4.12</junit.version>
 		<hamcrest.junit.version>2.0.0.0</hamcrest.junit.version>
 	</properties>
