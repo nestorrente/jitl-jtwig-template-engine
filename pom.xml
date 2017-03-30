@@ -20,6 +20,7 @@
 	<properties>
 		<jtwig.version>5.75</jtwig.version>
 		<jitl.version>3.0.0</jitl.version>
+		<guava.version>21.0</guava.version>
 		<junit.version>4.12</junit.version>
 		<hamcrest.junit.version>2.0.0.0</hamcrest.junit.version>
 	</properties>
@@ -36,6 +37,13 @@
 			<groupId>com.nestorrente</groupId>
 			<artifactId>jitl-core</artifactId>
 			<version>${jitl.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>${guava.version}</version>
+			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
