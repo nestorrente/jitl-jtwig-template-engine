@@ -1,13 +1,12 @@
 package com.nestorrente.jitl.template.jtwig;
 
-import java.util.Map;
-
+import com.nestorrente.jitl.template.TemplateEngine;
 import org.jtwig.JtwigModel;
 import org.jtwig.JtwigTemplate;
 import org.jtwig.environment.DefaultEnvironmentConfiguration;
 import org.jtwig.environment.EnvironmentConfiguration;
 
-import com.nestorrente.jitl.template.TemplateEngine;
+import java.util.Map;
 
 public class JtwigTemplateEngine implements TemplateEngine {
 
@@ -22,12 +21,13 @@ public class JtwigTemplateEngine implements TemplateEngine {
 	}
 
 	@Override
-	public String renderString(String templateContents, Map<String, Object> parameters) {
-		return this.render(JtwigTemplate.inlineTemplate(templateContents, this.config), parameters);
-	}
+	public String render(String templateContents, Map<String, Object> parameters) {
 
-	private String render(JtwigTemplate template, Map<String, Object> parameters) {
-		return template.render(JtwigModel.newModel(parameters));
+		JtwigTemplate template = JtwigTemplate.inlineTemplate(templateContents, this.config);
+		JtwigModel model = JtwigModel.newModel(parameters);
+
+		return template.render(model);
+
 	}
 
 }

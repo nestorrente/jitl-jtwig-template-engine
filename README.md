@@ -1,5 +1,11 @@
 # JITL Jtwig Template Engine
 
+## Disclaimer
+
+_This library is currently on development. Please, don't use it in production environments._
+
+_Stable version 4.0.0 comming soon._
+
 ## Table of contents
 + **[What is JITL Jtwig Template Engine?](#what-is-jitl-jtwig-template-engine)**
 + **[Usage example](#usage-example)**

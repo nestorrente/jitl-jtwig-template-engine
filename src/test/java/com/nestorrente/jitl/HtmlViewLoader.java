@@ -1,8 +1,8 @@
 package com.nestorrente.jitl;
 
-import java.util.List;
+import com.nestorrente.jitl.annotation.param.Param;
 
-import com.nestorrente.jitl.annotation.Param;
+import java.util.List;
 
 public interface HtmlViewLoader {
 
