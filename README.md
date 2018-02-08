@@ -120,4 +120,4 @@ Learn more about JITL in **[jitl-core GitHub page](https://github.com/nestorrent
 
 ## Related projects
 + [```jitl-core```](https://github.com/nestorrente/jitl-core)
-+ [```jitl-sql-module```](https://github.com/nestorrente/jitl-sql-module)
++ [```jitl-sql-processor```](https://github.com/nestorrente/jitl-sql-processor)
