@@ -113,7 +113,7 @@ Learn more about JITL in **[jitl-core GitHub page](https://github.com/nestorrent
 	<dependency>
 		<groupId>com.nestorrente</groupId>
 		<artifactId>jitl-jtwig-template-engine</artifactId>
-		<version>4.0.0</version>
+		<version>4.0.0-RC1</version>
 	</dependency>
 </dependencies>
 ```
